@@ -29,7 +29,6 @@ jobs:
         run: |
           valgrind ./src/bin-i386-linux/tests.linux
           valgrind ./src/bin-x86_64-linux/tests.linux
-
   arm32:
     name: ARM32
     runs-on: ubuntu-20.04
@@ -49,7 +48,6 @@ jobs:
                bin-arm32-efi/intel.efi \
                bin-arm32-efi/intel.usb \
                bin-arm32-efi/intel.iso
-
   arm64:
     name: ARM64
     runs-on: ubuntu-20.04
